@@ -1,0 +1,37 @@
+{
+    "name": "serverless-email-verification",
+    "version": "1.0.0",
+    "description": "AWS Lambda function for email verification triggered by SNS.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^8.1.4",
+        "aws-sdk": "^2.1171.0",
+        "dotenv": "^10.0.0",
+        "pg": "^8.5.1",
+        "sequelize": "^6.6.5",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "nodemon": "^3.1.7"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "license": "MIT",
+    "keywords": [
+        "serverless",
+        "lambda",
+        "email-verification",
+        "sns",
+        "aws",
+        "sequelize",
+        "rds"
+    ],
+    "author": "omkar",
+    "private": true
+}
